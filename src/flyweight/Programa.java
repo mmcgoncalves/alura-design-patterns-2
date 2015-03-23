@@ -16,6 +16,7 @@ public class Programa {
 				notas.pega("mi"), notas.pega("do"), notas.pega("re"),
 				notas.pega("mi"), notas.pega("fa"), notas.pega("fa"),
 				notas.pega("fa"), notas.pega("dosustenido"), notas.pega("resustenido"));
+		
 		Piano piano = new Piano();
 		piano.toca(doReMiFa);
 	}
